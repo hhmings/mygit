@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    //新增方法
+    public void addMethod(){
+        System.out.println("this is new method.");
+    }
+
     @GetMapping("/test")
     public String test(){
         return "ok";
