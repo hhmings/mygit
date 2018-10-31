@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    //dev 分支新增方法
+    public void methodOnDev(){
+        System.out.println("method dev...");
+    }
+
     //新增方法
     public void addMethod(){
         System.out.println("this is new method.");
